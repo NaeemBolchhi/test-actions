@@ -23,7 +23,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  generate-post-list:
+  build:
     runs-on: ubuntu-latest
 
     steps:
