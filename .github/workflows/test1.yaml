@@ -41,7 +41,7 @@ jobs:
       - name: Create JavaScript file
         run: |
           # Move the generated JavaScript file to the desired location
-          mv posts.js path/to/your/js/directory/posts.js
+          mv posts.js ./posts.js
         shell: bash
 
   # Deployment job
