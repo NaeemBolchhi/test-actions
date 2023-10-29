@@ -56,7 +56,7 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@users.noreply.github.com"
-          git add path/to/your/js/directory/posts.js
+          git add posts.js
           git commit -m "Update post list"
           git push
         env:
